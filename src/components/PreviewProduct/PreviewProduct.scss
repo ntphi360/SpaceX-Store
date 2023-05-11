@@ -1,0 +1,17 @@
+.qty{
+  margin-top: 20px;
+  &-text{
+      margin-right: 10px;
+  }
+  &-change{
+    margin-left: 5px;
+    .qty-inc, .qty-dec{
+          border: 2px solid white;
+          width: 32px;
+          height: 32px;
+      }
+      .qty-value{
+          width: 40px;
+      }
+  }
+}
